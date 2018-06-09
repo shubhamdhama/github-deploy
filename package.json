@@ -1,0 +1,22 @@
+{
+  "name": "@shubhamdhama/github-deploy",
+  "version": "1.0.0",
+  "description": "Simple GitHub deploy npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "github-pages-commit": "bin/commit.js",
+    "github-pages-push": "bin/push.js",
+    "github-pages-deploy": "bin/deploy.js"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "shubhamdhama",
+  "license": "MIT",
+  "dependencies": {
+    "shelljs": "^0.8.2"
+  }
+}
